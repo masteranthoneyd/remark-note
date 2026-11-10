@@ -11,3 +11,5 @@
     - **代码断层**：部分代码片段被截断后，函数声明、变量定义与上下文脱节，极易触发**语法错误或编译失败**。
     - **Schema 漂移**：结构化的 JSON Schema 或配置模板在中间被删后，会导致大模型输出格式错乱、校验失效。
   - https://github.com/openclaw/openclaw/issues/56317
+  - 更像 Compaction
+    - **Compression vs. Compaction:** **Compaction** is what an agent does natively when it runs out of memory (throwing away or crudely summarizing history). **Compression** is handled by dedicated gateway infrastructure (such as specialized engines like Headroom) to keep signal density high while protecting raw details.
