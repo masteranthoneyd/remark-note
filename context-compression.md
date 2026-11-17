@@ -13,3 +13,6 @@
   - https://github.com/openclaw/openclaw/issues/56317
   - 更像 Compaction
     - **Compression vs. Compaction:** **Compaction** is what an agent does natively when it runs out of memory (throwing away or crudely summarizing history). **Compression** is handled by dedicated gateway infrastructure (such as specialized engines like Headroom) to keep signal density high while protecting raw details.
+   
+
+https://github.com/googleapis/googleapis
